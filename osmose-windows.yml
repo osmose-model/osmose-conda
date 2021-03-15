@@ -6,17 +6,17 @@ dependencies:
   - _r-mutex=1.0.1=anacondar_1
   - bzip2=1.0.8=h8ffe710_4
   - ca-certificates=2020.12.5=h5b45459_0
-  - curl=7.71.1=h4b64cdc_8
+  - curl=7.75.0=hf1763fc_0
   - hdf4=4.2.13=h0e5069d_1004
   - hdf5=1.10.6=nompi_h5268f04_1114
   - intel-openmp=2020.3=h57928b3_311
   - jpeg=9d=h8ffe710_0
   - krb5=1.17.2=hbae68bd_0
   - libblas=3.9.0=8_mkl
-  - libcurl=7.71.1=h4b64cdc_8
+  - libcurl=7.75.0=hf1763fc_0
   - liblapack=3.9.0=8_mkl
   - libnetcdf=4.7.4=nompi_h3a9aa94_107
-  - libssh2=1.9.0=hb06d900_5
+  - libssh2=1.9.0=h680486a_6
   - m2w64-bwidget=1.9.10=2
   - m2w64-bzip2=1.0.6=6
   - m2w64-expat=2.1.1=2
@@ -51,8 +51,8 @@ dependencies:
   - mkl=2020.4=hb70f87d_311
   - msys2-conda-epoch=20160418=1
   - openssl=1.1.1j=h8ffe710_0
-  - pandoc=2.11.4=h8ffe710_0
-  - r-base=4.0.3=hddad469_6
+  - pandoc=2.12=h8ffe710_0
+  - r-base=4.0.3=hddad469_7
   - r-base64enc=0.1_3=r40hda5aaf8_1004
   - r-digest=0.6.27=r40h096a1c2_0
   - r-dotcall64=1.0_1=r40he816bda_0

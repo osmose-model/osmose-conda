@@ -77,9 +77,11 @@ dependencies:
   - lz4-c=1.9.3=h046ec9c_0
   - make=4.3=h22f3db7_1
   - markupsafe=1.1.1=py37hf967b71_3
+  - maven=3.6.0=0
   - mpc=1.1.0=ha57cd0f_1009
   - mpfr=4.0.2=h72d8aaf_1
   - ncurses=6.2=h2e338ed_4
+  - openjdk=11.0.8=hb0a8c7a_0
   - openssl=1.1.1j=hbcf498f_0
   - packaging=20.9=pyh44b312d_0
   - pandoc=2.12=h0d85af4_0

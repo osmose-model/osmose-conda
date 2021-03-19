@@ -26,9 +26,11 @@ dependencies:
   - krb5=1.17.2=hbae68bd_0
   - libblas=3.9.0=8_mkl
   - libcurl=7.75.0=hf1763fc_0
+  - libiconv=1.16=he774522_0
   - liblapack=3.9.0=8_mkl
   - libnetcdf=4.7.4=nompi_h3a9aa94_107
   - libssh2=1.9.0=h680486a_6
+  - libxml2=2.9.10=hf5bbc77_3
   - m2w64-bwidget=1.9.10=2
   - m2w64-bzip2=1.0.6=6
   - m2w64-expat=2.1.1=2
@@ -84,6 +86,7 @@ dependencies:
   - r-class=7.3_18=r40h6d2157b_0
   - r-cluster=2.1.1=r40he816bda_0
   - r-codetools=0.2_18=r40hc72bb7e_0
+  - r-data.table=1.14.0=r40h6d2157b_0
   - r-digest=0.6.27=r40h096a1c2_0
   - r-dotcall64=1.0_1=r40he816bda_0
   - r-evaluate=0.14=r40h6115d3f_2
@@ -108,6 +111,7 @@ dependencies:
   - r-nnet=7.3_15=r40h6d2157b_0
   - r-recommended=4.0=r40_1004
   - r-rlang=0.4.10=r40h6d2157b_0
+  - r-rlist=0.4.6.1=r40h6115d3f_1003
   - r-rmarkdown=2.7=r40hc72bb7e_0
   - r-rpart=4.1_15=r40h6d2157b_2
   - r-spam=2.6_0=r40hb106f1f_0
@@ -117,6 +121,7 @@ dependencies:
   - r-survival=3.2_10=r40h6d2157b_0
   - r-tinytex=0.30=r40hc72bb7e_0
   - r-xfun=0.20=r40h6d2157b_0
+  - r-xml=3.99_0.3=r40hda5aaf8_1
   - r-yaml=2.2.1=r40h6d2157b_1
   - requests=2.25.1=pyhd3deb0d_0
   - setuptools=49.6.0=py39hcbf5309_3
@@ -133,7 +138,7 @@ dependencies:
   - sqlite=3.34.0=h8ffe710_0
   - tk=8.6.10=h8ffe710_1
   - tzdata=2021a=he74cb21_0
-  - urllib3=1.26.3=pyhd8ed1ab_0
+  - urllib3=1.26.4=pyhd8ed1ab_0
   - vc=14.2=hb210afc_4
   - vs2013_runtime=12.0.21005=1
   - vs2015_runtime=14.28.29325=h5e1d092_4

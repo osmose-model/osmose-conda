@@ -40,16 +40,21 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 
 ## Install Osmose Environments
 
-### Linux / Mac Os X users
+### From command line (Anaconda Prompt, Terminal)
 
-- Open a Terminal, and navigate to the location of the Osmose `yaml` file.
-- Type `conda env create -f osmose-arch.yml`, replacing `arch` by your architecture.
-- When done, type `conda activate osmose`.
+- Open a Terminal or the Anaconda prompt, and type: `conda create -c conda-forge --name osmose`
+- Activate the environment: `conda activate osmose` 
+- Install the packages by typing:
+```
+conda install -y r rstudio r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
+```
+- **For Windows users**, type: `conda install -y rtools`
+- Before compiling, running and opening Rstudio, activate the Osmose environment as follows: `conda activate osmose`
 
-### Windows Users
+### From Anaconda Navigator (Windows/MacOs users)
 
 - Open the `Anaconda Navigator`
-- Click on `Environments`
-- Click on the `Import` button.
-- Navigate to the `osmose-windows.yml` file
-- When done, select the `osmose` environment.
+- Click on `Environments` and on the `Create` button. Select `R` and deselect `Python`
+- In the `Channels` box, make sure that both `Defaults` and `Conda-Forge` are available.
+- Select all the packages listed in the above and which are not installed yet, then click on `Apply`
+- Run RStudio from the `Home` of your newly created environment.

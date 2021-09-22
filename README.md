@@ -1,6 +1,8 @@
 # Osmose Conda environments 
 
-In order to easily install all the tools to compile and run Osmose, install Anaconda (https://www.anaconda.com/products/individual).
+In order to easily install all the tools to compile and run Osmose, install Anaconda (https://www.anaconda.com/products/individual). 
+
+**Note: using conda environments, the use of RStudio is not guaranteed. It can be used to install Osmose-compatible environments on HPC servers.**
 
 ## Anaconda install
 
@@ -47,6 +49,10 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 - Install the packages by typing:
 ```
 conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
+```
+- Install RStudio as follows: 
+```
+conda install rstudio
 ```
 - **For Windows users**, type: `conda install -y rtools`
 - Before compiling, running and opening Rstudio, activate the Osmose environment as follows: `conda activate osmose`

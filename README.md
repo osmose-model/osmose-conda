@@ -14,7 +14,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 **Do not allow the `git-init` command**. 
 
-When done, add the following line to your `~/.bash_profile` and `~/.bashrc` file:
+When done, add the following line to your `~/.bash_profile` and `~/.bashrc` files:
 
 ```
 . $CONDA/etc/profile.d/conda.sh
@@ -26,7 +26,7 @@ with `$CONDA` the path of your `Anaconda` install.
 
 When downloaded, double-click on the ```Anaconda3-2020.11-MacOSX-x86_64.pkg``` file. 
 
-When done, add the following line to your `~/.bash_profile` file:
+When done, add the following line to your `~/.bash_profile` and `~/.bashrc` files:
 
 ```
 . $CONDA/etc/profile.d/conda.sh

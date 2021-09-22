@@ -46,7 +46,7 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 - Activate the environment: `conda activate osmose` 
 - Install the packages by typing:
 ```
-conda install -y r rstudio r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
+conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
 ```
 - **For Windows users**, type: `conda install -y rtools`
 - Before compiling, running and opening Rstudio, activate the Osmose environment as follows: `conda activate osmose`

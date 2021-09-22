@@ -14,7 +14,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 **Do not allow the `git-init` command**. 
 
-When done, add the following line to your `~/.bash_profile` file:
+When done, add the following line to your `~/.bash_profile` and `.bashrc` file:
 
 ```
 . $CONDA/etc/profile.d/conda.sh

@@ -52,7 +52,7 @@ conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fiel
 ```
 - To build the documentation, install the following packages:
 ```
-conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme
+conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme pandas
 ```
 - **For Windows users**, type: `conda install -y rtools`
 

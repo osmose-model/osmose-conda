@@ -50,12 +50,11 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 ```
 conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
 ```
-- Install RStudio as follows: 
+- To build the documentation, install the following packages:
 ```
-conda install rstudio
+conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme
 ```
 - **For Windows users**, type: `conda install -y rtools`
-- Before compiling, running and opening Rstudio, activate the Osmose environment as follows: `conda activate osmose`
 
 ### From Anaconda Navigator (Windows/MacOs users)
 
@@ -63,4 +62,3 @@ conda install rstudio
 - Click on `Environments` and on the `Create` button. Select `R` and deselect `Python`
 - In the `Channels` box, make sure that both `Defaults` and `Conda-Forge` are available.
 - Select all the packages listed in the above and which are not installed yet, then click on `Apply`
-- Run RStudio from the `Home` of your newly created environment.

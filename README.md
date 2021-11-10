@@ -48,7 +48,7 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 - Activate the environment: `conda activate osmose` 
 - Install the packages by typing:
 ```
-conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven
+conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools
 ```
 - To build the documentation, install the following packages:
 ```

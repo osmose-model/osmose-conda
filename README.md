@@ -60,7 +60,7 @@ conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipy
 ```
 - To use Visual Studio Code R extension, **create a new environment**. Install the Osmose related packages (see above) and add:
 ```
-conda install -y radian r-systemfonts
+conda install -y radian r-systemfonts r-languageserver
 ```
 Finally, install manually the `httpgd` by typing the `R` command:
 ```

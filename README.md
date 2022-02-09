@@ -46,18 +46,27 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 
 - Open a Terminal or the Anaconda prompt, and type: `conda create -c conda-forge --name osmose`
 - Activate the environment: `conda activate osmose` 
-- Install the packages by typing:
+- Install the Osmose related packages by typing:
 ```
 conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools
 ```
-- In order to use Jupyter notebooks, in association with the Jupytext extension:
+- In order to use Jupyter notebooks, in association with the Jupytext extension, install the Jupyter related packages:
 ```
 conda install -y jupyter jupytext r-irkernel
 ```
-- To build the documentation, install the following packages:
+- To build the documentation, install the Sphinx related packages:
 ```
 conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme pandas
 ```
+- To use Visual Studio Code R extension, **create a new environment**. Install the Osmose related packages (see above) and add:
+```
+conda install -y radian r-systemfonts
+```
+Finally, install manually the `httpgd` by typing the `R` command:
+```
+install.packages("httpgd")
+```
+
 - **For Windows users**, type: `conda install -y rtools`
 
 ### From Anaconda Navigator (Windows/MacOs users)

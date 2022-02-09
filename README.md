@@ -50,13 +50,13 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 ```
 conda install -y r r-ncdf4 r-knitr r-fields r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools
 ```
-- In order to use Jupyter notebooks, in association with the Jupytext extension, install the Jupyter related packages:
-```
-conda install -y jupyter jupytext r-irkernel
-```
 - To build the documentation, install the Sphinx related packages:
 ```
 conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme pandas
+```
+- In order to use Jupyter notebooks, in association with the Jupytext extension, install the Jupyter related packages:
+```
+conda install -y jupyter jupytext r-irkernel
 ```
 - To use Visual Studio Code R extension, **create a new environment**. Install the Osmose related packages (see above) and add:
 ```

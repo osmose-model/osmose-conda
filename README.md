@@ -50,6 +50,10 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 ```
 conda install -y r r-ncdf4 r-knitr r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools
 ```
+- To use CalibraR, install:
+```
+conda install -y r-cmaes r-optimr r-dosnow r-snow r-doparallel
+```
 - To build the documentation, install the Sphinx related packages:
 ```
 conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme pandas

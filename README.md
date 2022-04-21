@@ -46,13 +46,9 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 
 - Open a Terminal or the Anaconda prompt, and type: `conda create -c conda-forge --name osmose`
 - Activate the environment: `conda activate osmose` 
-- Install the Osmose related packages by typing:
+- Install the Osmose and CalibraR related packages by typing:
 ```
-conda install -y r r-ncdf4 r-knitr r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools r-r.utils
-```
-- To use CalibraR, install:
-```
-conda install -y r-cmaes r-optimr r-dosnow r-snow r-doparallel
+conda install -y r r-ncdf4 r-knitr r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools r-r.utils r-cmaes r-optimr r-dosnow r-snow r-doparallel
 ```
 - To build the documentation, install the Sphinx related packages:
 ```

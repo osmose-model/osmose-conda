@@ -48,7 +48,7 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 - Activate the environment: `conda activate osmose` 
 - Install the Osmose related packages by typing:
 ```
-conda install -y r r-ncdf4 r-knitr r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools
+conda install -y r r-ncdf4 r-knitr r-rmarkdown r-stringr r-rlist r-fields r-mgcv maven r-devtools r-r.utils
 ```
 - To use CalibraR, install:
 ```

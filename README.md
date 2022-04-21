@@ -56,8 +56,11 @@ conda install -y matplotlib sphinxcontrib-programoutput sphinxcontrib-bibtex ipy
 ```
 - In order to use Jupyter notebooks, in association with the Jupytext extension, install the Jupyter related packages:
 ```
-conda install -y jupyter jupytext r-irkernel
+conda install -y r-irkernel
 ```
+
+**Note: your `base` environment must contain the `nb_conda_kernels` package.**
+
 - To use Visual Studio Code R extension: 
 ```
 conda install -y r-languageserver
